@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "Automatically install npm, bower, tsd, and pip packages/dependencies if the relative configurations are found in the gulp file stream respectively",
   "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec"
   },
